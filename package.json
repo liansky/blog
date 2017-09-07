@@ -5,10 +5,11 @@
   "scripts": {
     "start": "hexo g -wL",
     "server": "cd public/ && fis3 release -wL",
-    "serve": "cd public/ && browser-sync start --server --files 'css/*.css, *.html'"
+    "serve": "cd public/ && browser-sync start --server --files 'css/*.css, *.html'",
+    "deploy": "hexo deploy"
   },
   "hexo": {
-    "version": "3.2.2"
+    "version": "3.3.9"
   },
   "dependencies": {
     "hexo": "^3.2.0",
